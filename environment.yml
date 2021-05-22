@@ -1,0 +1,16 @@
+name: savannah
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - jupyterlab=3
+  - nodejs
+  - pip
+  - pip:
+    - matplotlib
+    - ipywidgets
+    - ipyleaflet
+    - pandas
+    - geopandas
+    - geojson
